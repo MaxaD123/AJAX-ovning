@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+header {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+img {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
