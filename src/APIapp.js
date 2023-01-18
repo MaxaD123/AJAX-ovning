@@ -52,11 +52,12 @@ function dogs() {
                     data.data.map(function (Obj) {
                         dogPiCCes.innerHTML += "<div><img src=\"".concat(Obj.image, "\" alt=\"\">");
                     });
-                    return [2 /*return*/];
+                    return [2 /*return*/, data];
             }
         });
     });
 }
+dogs();
 //let button = document.querySelector(".newDog") as HTMLElement;
 //button.addEventListener("click", (event) => {
 //  event.preventDefault();
