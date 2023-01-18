@@ -15,7 +15,7 @@ button.addEventListener("click", (event) => {
         const dogPicURL = document.createElement("section");
         dogPicURL.id = "NewDogPic";
         dogPic.append(dogPicURL);
-        dogPicURL.innerHTML = `${data.image}`
+        dogPicURL.innerHTML = `<img src="${data.image}" alt="">`
     })
     
 });
