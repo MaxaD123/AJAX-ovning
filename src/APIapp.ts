@@ -7,7 +7,7 @@ async function dogs() {
 
     let dogPiCCes = document.querySelector('.dogPic') as HTMLElement;
     dogPiCCes.innerHTML = ""
-    data.data.map((Obj: any) => {
+    data.data.image((Obj: any) => {
       dogPiCCes.innerHTML+= `<div><img src="${Obj.image}" alt="">`
     })
     return data;
