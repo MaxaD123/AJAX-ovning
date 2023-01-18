@@ -10,7 +10,10 @@ async function dogs() {
     data.data.map((Obj: any) => {
       dogPiCCes.innerHTML+= `<div><img src="${Obj.image}" alt="">`
     })
+    return data;
 }
+
+dogs();
 
 
 
