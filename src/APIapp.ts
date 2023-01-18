@@ -9,7 +9,7 @@ async function getRandomDogPhotos() {
     return data.message;
 }
 
-function createDogCard(url: string) {
+function createDogCard(url: any) {
     const card = document.createElement("div");
     card.classList.add("card");
 
