@@ -9,10 +9,12 @@ header {
     font-size: 45px;
     text-align: center;
     padding-top: 15px;
+    grid-column: 3;
+    grid-row: 1;
 
 }
 
-img {
+div {
     grid-column: 2/4;
     grid-row: 1/3;
 }
