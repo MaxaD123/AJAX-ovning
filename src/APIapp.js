@@ -49,7 +49,7 @@ function dogs() {
                     data = _a.sent();
                     dogPiCCes = document.querySelector('.dogPic');
                     dogPiCCes.innerHTML = "";
-                    data.data.map(function (Obj) {
+                    data.data.image(function (Obj) {
                         dogPiCCes.innerHTML += "<div><img src=\"".concat(Obj.image, "\" alt=\"\">");
                     });
                     return [2 /*return*/, data];
