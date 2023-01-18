@@ -1,12 +1,19 @@
+#cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .card {
-    display: inline-block;
     margin: 10px;
     width: 300px;
     height: 200px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 31, 116, 0.7);
     transition: 0.3s;
+    background-color: #a22525;
 }
 
 .card img {
@@ -18,22 +25,34 @@
 
 .card:hover {
     transform: scale(1.1);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(3, 148, 30, 0.7);
 }
 
 .card:hover img {
     transform: scale(1.2);
 }
+#buttonDog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #newDogsButton {
-    background-color: #4CAF50;
+    background-color: #23d25a;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 20%;
     opacity: 0.9;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
 }
 
 #newDogsButton:hover {
