@@ -11,11 +11,11 @@ button.addEventListener("click", (event) => {
     k.then(response => {
         return response.json();
         
-    }).then(Image => {
+    }).then(data => {
         const dogPicURL = document.createElement("section");
         dogPicURL.id = "NewDogPic";
         dogPic.append(dogPicURL);
-        dogPicURL.innerHTML = `${Image.image}`
+        dogPicURL.innerHTML = `${data.image}`
     })
     
 });
